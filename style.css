@@ -1,0 +1,48 @@
+/* General */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(212, 45%, 89%);
+  font-family: inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 20rem;
+  height: 25rem;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 7rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 18.65rem;
+  grid-template-rows: 5rem;
+  place-content: center;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-weight: bold;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+}
